@@ -12,7 +12,7 @@ coverage
 # Dependency directories
 node_modules/
 
-dist/
+# dist/ - COMMENTED OUT: We need dist/ in the repo for npm GitHub installs
 demo/dist/
 
 report.*.json
