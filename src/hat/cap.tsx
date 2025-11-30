@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function hatCap(props: { color: string }): SVGElement {
+export default function hatCap(props: { color: string }): React.ReactElement {
   const { color } = props;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       style={{
         position: "absolute",
-        bottom: "40%",
+        bottom: "50%",
         left: "12%",
         width: "76%",
         height: "65%"
